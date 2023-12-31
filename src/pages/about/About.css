@@ -1,0 +1,122 @@
+.about-main {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #d8e9a8;
+}
+
+.about-items-list {
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem; 
+    width: 90%;
+    /* border: 5px solid green; */
+}
+
+.about-content {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid orange; */
+}
+
+.about-item::before {
+    position: absolute;
+    border: 2px solid #5918df;
+    background-color: #5918df;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    left: -3px;
+    z-index: 10;
+    content: "";
+}
+
+.about-h1 {
+    font-family: var(--monospace-font-family);
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+    background-color: #4e9f3d;
+}
+
+.about-ul {
+    /* display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+    position: relative; */
+    padding-left: 0;
+    /* width: 100%;  */
+}
+
+.about-ul li {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.timeline {
+    position: absolute;
+    border: 0.5px solid #5918df;
+    height: 100%;
+    left: 0;
+}
+
+.bullet {
+    position: absolute;
+}
+
+.bullet::before {
+    position: absolute;
+    display: inline-block;
+    background-color: #5918df;
+    border-radius: 50%;
+    border: 2px solid #5918df;
+    content: "";
+    height: 9px;
+    width: 9px;
+    z-index: 10;
+    top: -4px;
+    left: -4px;
+}
+
+@media screen and (min-width: 720px) {
+    .about-content {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;*/
+        display: grid;
+        /* grid-template-columns: repeat(2, 1fr); */
+        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center;
+        /* flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: 2; */
+        /* justify-content: center;
+        align-items: center; */
+        /* border: 5px solid orange; */
+    }
+
+    .timeline {
+        left: -2vw;
+    }
+
+    .about-item::before {
+        left: -2.2vw;
+    }
+}

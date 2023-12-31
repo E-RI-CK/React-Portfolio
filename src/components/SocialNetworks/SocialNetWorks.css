@@ -1,0 +1,155 @@
+.follow-me {
+    position: fixed;
+    bottom: var(--position-bottom-float-btn);
+    z-index: 998;
+    /* width: 55px; */
+    left: 0;
+}
+
+.sn-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0;
+}
+/********Social Networks animation******/
+.sn-box-linkedin {
+    width: 50px;
+    height: 50px;
+    background-color: #0a66c2;
+    opacity: 0;
+    animation: linkedin-animation 1s ease-in-out 0.65s forwards;
+}
+
+.sn-box-github {
+    width: 50px;
+    height: 50px;
+    background-color: #4e545a;
+    animation: linkedin-animation 1s ease-in-out 0.65s forwards;
+    opacity: 0;
+}
+
+.sn-box-whatsapp {
+    width: 50px;
+    height: 50px;
+    background-color: #25d366;
+    animation: linkedin-animation 1s ease-in-out 0.65s forwards;
+    opacity: 0;
+}
+
+@keyframes linkedin-animation {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 50px;
+        opacity: 1;
+    }
+}
+
+/*******************************************************/
+
+.fa-linkedin-in {
+    color: #fff;
+}
+
+.fa-github {
+    color: #fff;
+}
+
+.fa-whatsapp {
+    color: #fff;
+}
+
+.a-sn-icon {
+    display: inline;
+    width: 50px;
+    height: 50px;
+}
+
+.a-sn-icon:hover {
+    background-color: transparent;
+}
+
+.a-sn-icon i {
+    width: 50px;
+    height: 50px;
+}
+
+/************Media Query Tablet**********/
+@media screen and (min-width: 720px) {
+    .follow-me {
+        top: calc(50% - (165px / 2));
+        left: 0;
+    }
+
+    .sn-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    /********Social Networks animation******/
+    .sn-box-linkedin {
+        width: 50px;
+        height: 50px;
+        background-color: #0a66c2;
+        opacity: 0;
+        animation: linkedin-animation 1s ease-in-out 0.65s forwards;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .sn-box-linkedin a,
+    .sn-box-github a,
+    .sn-box-whatsapp a {
+        transition: all 0.5s ease-in-out;
+    }
+
+    .sn-box-github {
+        width: 50px;
+        height: 50px;
+        background-color: #4e545a;
+        opacity: 0;
+        animation: linkedin-animation 1s ease-in-out 0.65s forwards;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .sn-box-whatsapp {
+        width: 50px;
+        height: 50px;
+        background-color: #25d366;
+        opacity: 0;
+        animation: linkedin-animation 1s ease-in-out 0.65s forwards;
+        transition: all 0.5s ease-in-out;
+    }
+
+    @keyframes linkedin-animation {
+        0% {
+            height: 0px;
+        }
+        100% {
+            height: 50px;
+            opacity: 1;
+        }
+    }
+    .sn-box-linkedin:hover,
+    .sn-box-github:hover,
+    .sn-box-whatsapp:hover {
+        width: 100px;
+    }
+    .sn-box-linkedin:hover a,
+    .sn-box-github:hover a,
+    .sn-box-whatsapp:hover a {
+        padding-left: 50px;
+    }
+}
+
+/**************Desktop Media Query****************/
+@media screen and (min-width: 1024px) {
+    .sn-box-linkedin a,
+    .sn-box-github a,
+    .sn-box-whatsapp a {
+        font-size: 35px;
+    }
+}

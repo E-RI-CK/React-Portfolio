@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 311 238.22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3c3c3b;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3, .cls-8 {
+        stroke-width: .25px;
+      }
+
+      .cls-1, .cls-5, .cls-8, .cls-12 {
+        stroke: #1d1d1b;
+      }
+
+      .cls-2 {
+        stroke-width: 5px;
+      }
+
+      .cls-2, .cls-7, .cls-13 {
+        fill: #333;
+      }
+
+      .cls-2, .cls-9 {
+        stroke: #62b22f;
+      }
+
+      .cls-3 {
+        fill: #c6deab;
+        stroke: #c6deab;
+      }
+
+      .cls-4 {
+        fill: #0f150e;
+      }
+
+      .cls-4, .cls-10, .cls-11 {
+        stroke: #f6f6f6;
+      }
+
+      .cls-5 {
+        fill: #028eb4;
+      }
+
+      .cls-6 {
+        fill: #ed6d12;
+        font-size: 36px;
+        stroke: #ea5b0c;
+      }
+
+      .cls-6, .cls-9 {
+        font-family: CenturyGothic, 'Century Gothic';
+      }
+
+      .cls-7 {
+        stroke: #dadada;
+      }
+
+      .cls-8, .cls-10 {
+        fill: #1d1d1b;
+      }
+
+      .cls-9 {
+        fill: #312783;
+        font-size: 21px;
+      }
+
+      .cls-10 {
+        stroke-width: 3px;
+      }
+
+      .cls-11 {
+        fill: #0f1510;
+      }
+
+      .cls-12 {
+        fill: #c5ddaa;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <rect class="cls-2" x="2.5" y="2.5" width="306" height="233.22" rx="55.94" ry="55.94"/>
+    <rect class="cls-10" x="73.66" y="17.63" width="170.53" height="170.53" rx="69.88" ry="69.88"/>
+    <rect class="cls-7" x="88.18" y="36.29" width="140.49" height="137.35" rx="64.41" ry="64.41"/>
+    <rect class="cls-13" x="158.92" y="102.89" width="85.27" height="104" transform="translate(403.11 309.79) rotate(180)"/>
+    <rect class="cls-13" x="73.66" y="102.89" width="85.27" height="104" transform="translate(232.58 309.79) rotate(180)"/>
+    <rect class="cls-11" x="219.58" y="104.24" width="35.22" height="35.22" rx="7.24" ry="7.24"/>
+    <rect class="cls-4" x="63.05" y="104.24" width="35.22" height="35.22" rx="7.24" ry="7.24"/>
+    <rect class="cls-5" x="101.01" y="84.48" width="115.83" height="74.74" rx="4.11" ry="4.11"/>
+    <rect class="cls-12" x="109.23" y="92.11" width="99.39" height="59.48"/>
+    <rect class="cls-8" x="131.86" y="105.41" width="13.7" height="13.7" rx="6.85" ry="6.85"/>
+    <rect class="cls-8" x="174.38" y="105.41" width="13.7" height="13.7" rx="6.85" ry="6.85"/>
+    <path class="cls-12" d="m189.69,129.48c-.15.3-.38.75-.68,1.28,0,0-3.46,6.05-10.36,10.18-6.57,3.93-21.92,5.81-37.97,0l-1.97,2.62,3.68-6.51"/>
+    <path class="cls-12" d="m187.49,123.22c-1.38,2.58-.71,5.78,1.52,7.54,2.11,1.67,5.15,1.69,7.35.02"/>
+    <rect class="cls-3" x="163.42" y="119.11" width="10.96" height="10.96" rx="5.48" ry="5.48"/>
+    <rect class="cls-1" x="155.5" y="85.73" width="5" height="5" rx="2.5" ry="2.5"/>
+    <text class="cls-6" transform="translate(49.38 192.82)"><tspan x="0" y="0">Andro Valero</tspan></text>
+    <text class="cls-9" transform="translate(63.05 216.82)"><tspan x="0" y="0">Full Stack Developer</tspan></text>
+    <text/>
+  </g>
+</svg>

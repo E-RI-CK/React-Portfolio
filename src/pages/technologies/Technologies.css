@@ -1,0 +1,121 @@
+.technologies-main {
+    background-color: #2a2a2a;
+    min-height: 100vh;
+}
+
+.technologies-img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.technologies-img figure {
+    width: 100%;
+}
+
+.technologies-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 50% 50%;
+    box-shadow: 8px 8px 0 rgba(238, 249, 251, 0.15);
+}
+
+.technologies-description {
+    text-align: center;
+    color: var(--third-color);
+    font-family: var(--kdam-font-family);
+    margin: 2rem;
+}
+
+.technologies-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.i-main-color {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 4.5em;
+    margin: 15px;
+    opacity: 0.93;
+    padding: 10px;
+    width: 80vw;
+    transition: all 0.4s ease 0s;
+    background: #1c1c01;
+}
+.i-main-color h4 {
+    color: #fff;
+    font-family: var(--kdam-font-family);
+    margin-top: 0.4rem;
+}
+
+.html-container {
+    box-shadow: 4px 4px 16px rgb(239, 113, 0, 0.85);
+}
+
+.i-main-color .fa-html5 {
+    color: rgb(239, 113, 0);
+    font-size: 5rem;
+}
+
+.css-container {
+    box-shadow: 4px 4px 16px rgba(38, 77, 228, 0.85);
+}
+
+.i-main-color .fa-css3-alt {
+    color: rgba(38, 77, 228, 1);
+    font-size: 5rem;
+}
+
+.materialui-container {
+    box-shadow: 4px 4px 16px rgba(0, 127, 255, 0.85);
+}
+
+.i-main-color [icon="mdi:material-ui"] {
+    color: rgba(0, 127, 255, 1);
+    font-size: 5rem;
+}
+
+.js-container {
+    box-shadow: 4px 4px 16px rgba(247, 223, 30, 0.85);
+}
+
+.i-main-color .fa-js {
+    color: rgba(247, 223, 30, 1);
+    font-size: 5rem;
+}
+
+.react-container {
+    box-shadow: 4px 4px 16px rgba(97, 219, 251, 0.85);
+}
+
+.i-main-color .fa-react {
+    color: rgba(97, 219, 251, 1);
+    font-size: 5rem;
+}
+
+.redux-container {
+    box-shadow: 4px 4px 16px rgba(118, 74, 188, 0.85);
+}
+
+.i-main-color [icon="bxl:redux"] {
+    color: rgba(118, 74, 188, 1);
+    font-size: 5rem;
+}
+
+.nodejs-container {
+    box-shadow: 4px 4px 16px rgba(104, 160, 99, 0.85);
+}
+
+.i-main-color .fa-node-js {
+    color: rgba(104, 160, 99, 1);
+    font-size: 5rem;
+}

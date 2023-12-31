@@ -1,0 +1,21 @@
+
+.cursor-blink {
+    /* background-color: #9a9a9a; */
+    color: #9a9a9a;
+    animation: blink-animation 0.5s infinite;
+}
+
+@keyframes blink-animation {
+    0%,
+    50% {
+        opacity: 0;
+    }
+    51%,
+    100% {
+        opacity: 1;
+    }
+}
+
+.none {
+    display: none;
+}
