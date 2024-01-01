@@ -21,12 +21,12 @@ export const Home = () => {
             </div>
             <div className="description">
               <h3 className="description-title">
-                <TypeWritter text="Hello, My name is Andro Valero!" delay={100} onHandleContinueWord={setContinueWord} />
+                <TypeWritter text="Hello, My name is Andro Valero!" delay={58} onHandleContinueWord={setContinueWord} />
               </h3>
               <h5 className="description-body">
                 {
                   (continueWord)
-                    ? (<TypeWritter text={firstParagraph} delay={70} onHandleContinueWord={setContinueWord2} />)
+                    ? (<TypeWritter text={firstParagraph} delay={35} onHandleContinueWord={setContinueWord2} />)
                     : <></>
                 }
 
@@ -34,7 +34,7 @@ export const Home = () => {
               <h5 className="description-body2">
                 {
                   (continueWord2)
-                    ? (<TypeWritterInf text={secondParagraph} delay={70} color={"#9a9a9a"} />)
+                    ? (<TypeWritterInf text={secondParagraph} delay={50} color={"#9a9a9a"} />)
                     : <></>
                 }
               </h5>
@@ -42,7 +42,6 @@ export const Home = () => {
           </div>
           <SocialNetworks />
         </div>
-
       </main>
     </>
   )

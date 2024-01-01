@@ -1,6 +1,6 @@
 .technologies-main {
     background-color: #2a2a2a;
-    min-height: 100vh;
+    padding: 2rem;
 }
 
 .technologies-img {
@@ -47,10 +47,16 @@
     margin: 15px;
     opacity: 0.93;
     padding: 10px;
-    width: 80vw;
-    transition: all 0.4s ease 0s;
+    width: 80%;
     background: #1c1c01;
+    transition: all 0.4s ease-in-out 0s;
 }
+
+.fa-brands,
+iconify-icon {
+    transition: all 0.4s ease-in-out 0s;
+}
+
 .i-main-color h4 {
     color: #fff;
     font-family: var(--kdam-font-family);
@@ -118,4 +124,246 @@
 .i-main-color .fa-node-js {
     color: rgba(104, 160, 99, 1);
     font-size: 5rem;
+}
+
+.mongodb-container {
+    box-shadow: 4px 4px 16px rgba(0, 237, 100, 0.85);
+}
+
+.i-main-color [icon="cib:mongodb"] {
+    color: rgba(0, 237, 100, 1);
+    font-size: 5rem;
+}
+
+.firebase-container {
+    box-shadow: 4px 4px 16px rgba(255, 166, 17, 0.85);
+}
+
+.i-main-color [icon="simple-icons:firebase"] {
+    color: rgba(255, 166, 17, 1);
+    font-size: 5rem;
+}
+
+.git-container {
+    box-shadow: 4px 4px 16px rgba(241, 80, 47, 0.85);
+}
+
+.i-main-color .fa-git-alt {
+    color: rgba(241, 80, 47, 1);
+    font-size: 5rem;
+}
+
+.vscode-container {
+    box-shadow: 4px 4px 16px rgba(0, 120, 215, 0.85);
+}
+
+.i-main-color [icon="devicon-plain:vscode"] {
+    color: rgba(0, 120, 215, 1);
+    font-size: 5rem;
+}
+
+.postman-container {
+    box-shadow: 4px 4px 16px rgba(243, 112, 54, 0.85);
+}
+
+.i-main-color [icon="devicon-plain:postman"] {
+    color: rgba(243, 112, 54, 1);
+    font-size: 5rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.github-container {
+    box-shadow: 4px 4px 16px rgba(255, 255, 255, 0.85);
+}
+
+.i-main-color [icon="ri:github-fill"] {
+    color: rgba(0, 0, 54, 1);
+    font-size: 5rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 720px) {
+    .technologies-icons {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;*/
+        display: grid;
+        /* grid-template-columns: repeat(2, 1fr); */
+        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center;
+        /* flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: 2; */
+        /* justify-content: center;
+        align-items: center; */
+        /* border: 5px solid orange; */
+    }
+
+    .technologies-img img {
+        width: 50%;
+    }
+
+    .timeline {
+        left: -2vw;
+    }
+
+    .about-item::before {
+        left: -2.2vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .technologies-main {
+        position: static;
+        height: 100%;
+        margin-top: calc(var(--header-height));
+        padding: 2rem;
+    }
+
+    .technologies-img img {
+        width: 25%;
+    }
+
+    .i-main-color {
+        box-shadow: 4px 4px 16px rgb(255, 255, 255, 0.85);
+    }
+    .i-main-color .fa-brands,
+    .i-main-color [icon*=":"] {
+        color: rgb(255, 255, 255, 1);
+    }
+
+    .html-container:hover {
+        box-shadow: 4px 4px 16px rgb(239, 113, 0, 0.85);
+    }
+
+    .i-main-color:hover .fa-html5 {
+        color: rgb(239, 113, 0);
+        font-size: 5rem;
+    }
+
+    .css-container:hover {
+        box-shadow: 4px 4px 16px rgba(38, 77, 228, 0.85);
+    }
+
+    .i-main-color:hover .fa-css3-alt {
+        color: rgba(38, 77, 228, 1);
+        font-size: 5rem;
+    }
+
+    .materialui-container:hover {
+        box-shadow: 4px 4px 16px rgba(0, 127, 255, 0.85);
+    }
+
+    .i-main-color:hover [icon="mdi:material-ui"] {
+        color: rgba(0, 127, 255, 1);
+        font-size: 5rem;
+    }
+
+    .js-container:hover {
+        box-shadow: 4px 4px 16px rgba(247, 223, 30, 0.85);
+    }
+
+    .i-main-color:hover .fa-js {
+        color: rgba(247, 223, 30, 1);
+        font-size: 5rem;
+    }
+
+    .react-container:hover {
+        box-shadow: 4px 4px 16px rgba(97, 219, 251, 0.85);
+    }
+
+    .i-main-color:hover .fa-react {
+        color: rgba(97, 219, 251, 1);
+        font-size: 5rem;
+    }
+
+    .redux-container:hover {
+        box-shadow: 4px 4px 16px rgba(118, 74, 188, 0.85);
+    }
+
+    .i-main-color:hover [icon="bxl:redux"] {
+        color: rgba(118, 74, 188, 1);
+        font-size: 5rem;
+    }
+
+    .nodejs-container:hover {
+        box-shadow: 4px 4px 16px rgba(104, 160, 99, 0.85);
+    }
+
+    .i-main-color:hover .fa-node-js {
+        color: rgba(104, 160, 99, 1);
+        font-size: 5rem;
+    }
+
+    .mongodb-container:hover {
+        box-shadow: 4px 4px 16px rgba(0, 237, 100, 0.85);
+    }
+
+    .i-main-color:hover [icon="cib:mongodb"] {
+        color: rgba(0, 237, 100, 1);
+        font-size: 5rem;
+    }
+
+    .firebase-container:hover {
+        box-shadow: 4px 4px 16px rgba(255, 166, 17, 0.85);
+    }
+
+    .i-main-color:hover [icon="simple-icons:firebase"] {
+        color: rgba(255, 166, 17, 1);
+        font-size: 5rem;
+    }
+
+    .git-container:hover {
+        box-shadow: 4px 4px 16px rgba(241, 80, 47, 0.85);
+    }
+
+    .i-main-color:hover .fa-git-alt {
+        color: rgba(241, 80, 47, 1);
+        font-size: 5rem;
+    }
+
+    .vscode-container:hover {
+        box-shadow: 4px 4px 16px rgba(0, 120, 215, 0.85);
+    }
+
+    .i-main-color:hover [icon="devicon-plain:vscode"] {
+        color: rgba(0, 120, 215, 1);
+        font-size: 5rem;
+    }
+
+    .postman-container:hover {
+        box-shadow: 4px 4px 16px rgba(243, 112, 54, 0.85);
+    }
+
+    .i-main-color [icon="devicon-plain:postman"] {
+        background: #000;
+    }
+
+    .i-main-color:hover [icon="devicon-plain:postman"] {
+        color: rgba(243, 112, 54, 1);
+        font-size: 5rem;
+        background: #fff;
+        border-radius: 50%;
+    }
+
+    .github-container:hover {
+        box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.85);
+    }
+
+    .i-main-color [icon="ri:github-fill"] {
+        background: #000;
+    }
+
+    .i-main-color:hover [icon="ri:github-fill"] {
+        color: rgba(0, 0, 54, 1);
+        font-size: 5rem;
+        background: #fff;
+        border-radius: 50%;
+    }
 }

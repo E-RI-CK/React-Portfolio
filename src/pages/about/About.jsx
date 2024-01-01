@@ -22,7 +22,7 @@ export const About = () => {
   useEffect(() => {
     const displayAboutPage = setTimeout(() => {
       setDisplayPage(true)
-    }, 400);
+    }, 100);
 
     return () => {
       clearTimeout(displayAboutPage);
@@ -42,7 +42,7 @@ export const About = () => {
           ? (<>
             <div>
               <h1 className="about-h1">
-                <TypeWritterInf text={"<About Me/>"} delay={100} color={"#fff"}/>
+                <TypeWritterInf text={"<About Me/>"} delay={100} color={"#fff"} />
               </h1>
             </div>
             <div className="about-items-list">
