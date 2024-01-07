@@ -26,6 +26,7 @@ li {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding: 17px;
 }
 
 .navbar-container {
@@ -229,6 +230,6 @@ span {
     }
 
     a {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }

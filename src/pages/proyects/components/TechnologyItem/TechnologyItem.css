@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Kdam+Thmor+Pro&family=Poppins:wght@600&family=Red+Hat+Display:wght@600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+.grid-list .tags li {
+    padding: 1px;
+    margin-top: 5px;
+    /* background-color: rgb(62, 61, 61); */
+    background-color: rgb(65, 63, 63);
+    width: 5rem;
+    color: #ddd;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 7px;
+    margin-bottom: 6px;
+    transform: translateY(-100vh);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 4px 4px 16px rgba(7, 7, 7, 0.85);
+    border-radius: 8px;
+    line-height: 25px;
+}
+.item:hover .tags li {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.grid-list .tags li:nth-child(1):hover {
+    opacity: 1;
+}
+
+.grid-list .tags li:nth-child(1) {
+    -moz-transition-delay: 0.45s, 0.45s;
+    -o-transition-delay: 0.45s, 0.45s;
+    -webkit-transition-delay: 0.45s, 0.45s;
+    transition-delay: 0.45s, 0.45s;
+    z-index: 12;
+}
+
+.grid-list .tags li:nth-child(2) {
+    -moz-transition-delay: 0.49s, 0.49s;
+    -o-transition-delay: 0.49s, 0.49s;
+    -webkit-transition-delay: 0.49s, 0.49s;
+    transition-delay: 0.55s, 0.55s;
+    z-index: 11;
+}
+
+.grid-list .tags li:nth-child(3) {
+    -moz-transition-delay: 0.53s, 0.53s;
+    -o-transition-delay: 0.53s, 0.53s;
+    -webkit-transition-delay: 0.53s, 0.53s;
+    transition-delay: 0.65s, 0.65s;
+    z-index: 10;
+}
+
+.grid-list .tags li:nth-child(4) {
+    -moz-transition-delay: 0.57s, 0.57s;
+    -o-transition-delay: 0.57s, 0.57s;
+    -webkit-transition-delay: 0.57s, 0.57s;
+    transition-delay: 0.75s, 0.75s;
+    z-index: 9;
+}
+
+.grid-list .tags li:nth-child(5) {
+    -moz-transition-delay: 0.57s, 0.57s;
+    -o-transition-delay: 0.57s, 0.57s;
+    -webkit-transition-delay: 0.57s, 0.57s;
+    transition-delay: 0.85s, 0.85s;
+    z-index: 8;
+}
+
+.grid-list .tags li:nth-child(6) {
+    -moz-transition-delay: 0.57s, 0.57s;
+    -o-transition-delay: 0.57s, 0.57s;
+    -webkit-transition-delay: 0.57s, 0.57s;
+    transition-delay: 0.95s, 0.95s;
+    z-index: 7;
+}
+
+.grid-list .tags li:nth-child(7) {
+    -moz-transition-delay: 0.57s, 0.57s;
+    -o-transition-delay: 0.57s, 0.57s;
+    -webkit-transition-delay: 0.57s, 0.57s;
+    transition-delay: 1.05s, 1.05s;
+    z-index: 7;
+}
+
+@media screen and (min-width: 720px) {
+    .grid-list .tags li {
+        padding: 5px;
+        margin-top: 5px;
+        width: 7rem;
+        font-size: 1.2rem;
+    }
+}

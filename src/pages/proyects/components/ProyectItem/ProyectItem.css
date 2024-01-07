@@ -1,0 +1,113 @@
+.grid-list li {
+    margin-bottom: 2rem;
+    height: auto;
+    width: 95%;
+    overflow: hidden;
+    max-width: 900px;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 1);
+}
+
+.grid-list .tags {
+    opacity: 1;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+    display: block;
+}
+
+.grid-list .tags div {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.grid-list .tags ul {
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+}
+
+.item-description {
+    background: #202523;
+    color: #eee;
+    padding: 1rem;
+}
+
+.item-description p{
+    margin-bottom: 1.2rem;
+}
+
+.description-container{
+    
+}
+
+.proyect-description {
+    font-family: "Roboto";
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.description-container iconify-icon {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.date {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.technologies {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links-container a {
+    color: #eee;
+    font-size: 1.1rem;
+    border: solid 2px #eee;
+    box-shadow: 4px 4px 16px rgba(255, 255, 255, 0.2);
+    padding: 0.3rem;
+    width: 32%;
+    border-radius: 10px;
+    display: flex;
+    align-items: stretch;
+    transition: all 0.3s ease-in-out;
+}
+
+.links-container a:hover{
+    background: #eee;
+    color: #202523;
+}
+
+.links-container a iconify-icon {
+    margin-right: 0.3rem;
+    font-size: 1.3rem;
+}

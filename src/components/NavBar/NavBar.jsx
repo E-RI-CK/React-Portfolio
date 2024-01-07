@@ -45,13 +45,13 @@ export const NavBar = () => {
                                     <span className='li-footer-right'></span>
                                 </div>
                             </NavLink>
-                            <NavLink to={'/experiencie'} onClick={onBurgerToggle}>
+                            {/* <NavLink to={'/experiencie'} onClick={onBurgerToggle}>
                                 <span className='li-word'>Experience</span>
                                 <div className='green-lines-container'>
                                     <span className='li-footer-left'></span>
                                     <span className='li-footer-right'></span>
                                 </div>
-                            </NavLink>
+                            </NavLink> */}
                             <NavLink to={'/contact'} onClick={onBurgerToggle}>
                                 <span className='li-word'>Contact me</span>
                                 <div className='green-lines-container'>

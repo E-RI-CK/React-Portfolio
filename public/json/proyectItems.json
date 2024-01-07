@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Tradición Arequipeña",
+        "imgBack": "../assets/tradi_back.png",
+        "imgFront": "../assets/tradi_front.png",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JS",
+            "Github"
+        ],
+        "proyectDescription": "Web Page about a Arequipa Restaurant",
+        "proyectDate": "Marzo 2023",
+        "webTools":"HTML, CSS, Wordpress"
+    },
+    {
+        "id": 2,
+        "title": "Journal App",
+        "imgBack": "../assets/journal_back.png",
+        "imgFront": "../assets/journal_front.png",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Material UI",
+            "JS",
+            "React JS",
+            "Redux",
+            "Firebase"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Web Tractopartes",
+        "imgBack": "../assets/tracto_back.png",
+        "imgFront": "../assets/tracto_front.png",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Wordpress",
+            "WP Builder",
+            "Contact Form"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Calendar App",
+        "imgBack": "../assets/calendar_back.png",
+        "imgFront": "../assets/calendar_front.png",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Wordpress",
+            "WP Builder",
+            "Contact Form"
+        ]
+    }
+]
