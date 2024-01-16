@@ -1,7 +1,10 @@
-import { useEffect, useState } from 'react';
 import { TypeWritterInf } from '../../components/TypeWritterInf/TypeWritterInf';
 import './Contact.css';
 import { useForm } from '../../hooks';
+import emailjs from '@emailjs/browser';
+import { useState } from 'react';
+import Swal from 'sweetalert2';
+
 
 export const Contact = () => {
 
@@ -11,9 +14,28 @@ export const Contact = () => {
         message: ""
     });
 
-    const onSubmit = (event) => {
+
+
+    const onSubmit = async (event) => {
         event.preventDefault();
-        formReset();
+        Swal.showLoading();
+        try {
+            await emailjs.sendForm('service_k90vkz8', 'template_4bx2fih', event.target, 'FmKi2XfQyiW0yvg_8');
+            Swal.hideLoading();
+            Swal.fire({
+                title: 'Succes',
+                text: 'The message was sent succesfully',
+                icon: 'success',
+            })
+            formReset();
+        } catch (error) {
+            Swal.hideLoading();
+            Swal.fire({
+                title: 'Error',
+                text: `Connection Error with the Server`,
+                icon: 'error',
+            })
+        }
     }
 
     return (
