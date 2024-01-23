@@ -72,7 +72,7 @@ export const Technologies = () => {
             </article>
             <article className="i-main-color github-container">
               <iconify-icon icon="ri:github-fill"></iconify-icon>
-              <h4>Postman</h4>
+              <h4>GitHub</h4>
             </article>
           </div>
         </section>

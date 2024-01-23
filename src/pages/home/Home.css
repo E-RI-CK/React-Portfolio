@@ -7,7 +7,7 @@
     background-color: #2a2a2a;
     /* background-color: dimgrey; */
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     /* height: calc(100vh - var(--header-height)); */
 }
 

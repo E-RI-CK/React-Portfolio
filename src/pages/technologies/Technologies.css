@@ -178,7 +178,7 @@ iconify-icon {
 }
 
 .i-main-color [icon="ri:github-fill"] {
-    color: rgba(0, 0, 54, 1);
+    color: #000;
     font-size: 5rem;
     background: #fff;
     border-radius: 50%;
@@ -357,11 +357,11 @@ iconify-icon {
     }
 
     .i-main-color [icon="ri:github-fill"] {
-        background: #000;
+        background: #1c1c01;
     }
 
     .i-main-color:hover [icon="ri:github-fill"] {
-        color: rgba(0, 0, 54, 1);
+        color: #000;
         font-size: 5rem;
         background: #fff;
         border-radius: 50%;
