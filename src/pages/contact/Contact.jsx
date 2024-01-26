@@ -24,16 +24,16 @@ export const Contact = () => {
             await emailjs.sendForm('service_k90vkz8', 'template_4bx2fih', event.target, 'FmKi2XfQyiW0yvg_8');
             Swal.hideLoading();
             Swal.fire({
-                title: 'Succes',
-                text: 'The message was sent succesfully',
+                title: `${translation?.contact?.contactAlert?.title}`,
+                text: `${translation?.contact?.contactAlert?.text}`,
                 icon: 'success',
             })
             formReset();
         } catch (error) {
             Swal.hideLoading();
             Swal.fire({
-                title: 'Error',
-                text: `Connection Error with the Server`,
+                title: `${translation?.contact?.contactAlert?.titleError}`,
+                text: `${translation?.contact?.contactAlert?.textError}`,
                 icon: 'error',
             })
         }

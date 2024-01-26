@@ -175,6 +175,12 @@
         "thirdInputPlaceholder": "ahora escribe tu increíble mensaje :)",
         "btnName": "Enviar",
         "socialMedia": "Vamos a Socializar",
-        "socialMediaDescription": "Sigue mi página de Facebook y mis perfiles en Twitter, GitHub y Linkedin."
+        "socialMediaDescription": "Sigue mi página de Facebook y mis perfiles en Twitter, GitHub y Linkedin.",
+        "contactAlert": {
+            "title": "Gracias por el mensaje",
+            "text": "El mensaje fue enviado con exito",
+            "titleError": "Error al enviar el mensaje",
+            "textError": "Error de conexión con el servidor"
+        }
     }
 }

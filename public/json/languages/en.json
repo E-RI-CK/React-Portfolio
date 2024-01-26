@@ -175,6 +175,12 @@
         "thirdInputPlaceholder": "now write your awesome message :)",
         "btnName": "Submit",
         "socialMedia": "Let's get social",
-        "socialMediaDescription": "Follow my page on Facebook and profiles on Twitter, GitHub and Linkedin."
+        "socialMediaDescription": "Follow my page on Facebook and profiles on Twitter, GitHub and Linkedin.",
+        "contactAlert": {
+            "title": "Thank's for the message",
+            "text": "The message was sent succesfully",
+            "titleError": "Error at send the message",
+            "textError": "Connection Error with the Server"
+        }
     }
 }
