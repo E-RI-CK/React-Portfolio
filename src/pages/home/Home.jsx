@@ -1,17 +1,19 @@
 import { useState } from "react";
 import { TypeWritter, TypeWritterInf } from "../../components";
 import './Home.css';
-import { firstParagraph, secondParagraph } from "../../data";
 import { SocialNetworks } from "../../components/SocialNetworks";
+import { useTranslation } from "../../hooks";
+
 
 export const Home = () => {
 
   const [continueWord, setContinueWord] = useState(false);
   const [continueWord2, setContinueWord2] = useState(false);
+  const { translation, key } = useTranslation();
 
   return (
     <>
-      <main className="home-main">
+      <main className="home-main" key={key}>
         <div className="home-container">
           <div className="home">
             <div className="photo">
@@ -20,21 +22,25 @@ export const Home = () => {
               </figcaption>
             </div>
             <div className="description">
-              <h3 className="description-title">
-                <TypeWritter text="Hello, My name is Andro Valero!" delay={58} onHandleContinueWord={setContinueWord} />
+              <h3 className="description-title" data-section="home" data-value="descriptionTitle">
+                <TypeWritter
+                  text={translation?.home?.descriptionTitle || ''}
+                  delay={58}
+                  onHandleContinueWord={setContinueWord}
+                />
               </h3>
-              <h5 className="description-body">
+              <h5 className="description-body" data-section="home" data-value="descriptionBody">
                 {
                   (continueWord)
-                    ? (<TypeWritter text={firstParagraph} delay={35} onHandleContinueWord={setContinueWord2} />)
+                    ? (<TypeWritter text={translation?.home?.descriptionBody || ''} delay={35} onHandleContinueWord={setContinueWord2} />)
                     : <></>
                 }
 
               </h5>
-              <h5 className="description-body2">
+              <h5 className="description-body2" data-section="home" data-value="descriptionBody2">
                 {
                   (continueWord2)
-                    ? (<TypeWritterInf text={secondParagraph} delay={50} color={"#9a9a9a"} />)
+                    ? (<TypeWritterInf text={translation?.home?.descriptionBody2 || ''} delay={50} color={"#9a9a9a"} />)
                     : <></>
                 }
               </h5>

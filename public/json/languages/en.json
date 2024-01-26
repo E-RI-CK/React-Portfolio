@@ -1,0 +1,180 @@
+{
+    "home": {
+        "descriptionTitle": "Hello, My name is Andro Valero!",
+        "descriptionBody": "I'm a passionate Full Stack Web Developer 💻, adept at turning conceptual designs into responsive web applications 🦾.",
+        "descriptionBody2": "I consider myself a lover of music 🎼🎸 and video games 🎮🎲."
+    },
+    "navbar": {
+        "aboutMe": "About Me",
+        "technologies": "Technologies",
+        "proyects": "Proyects",
+        "contactMe": "Contact Me"
+    },
+    "about": {
+        "title": "<About Me/>",
+        "content": [
+            {
+                "id": "1",
+                "label": "University",
+                "src": "/assets/uni_logo.png",
+                "title": "Universidad Nacional de Ingeniería",
+                "extraData": "2017-2023"
+            },
+            {
+                "id": "2",
+                "label": "Career",
+                "src": "/assets/laptop.svg",
+                "title": "Computer Science",
+                "extraData": "2017-2023"
+            },
+            {
+                "id": "3",
+                "label": "Area of Programming",
+                "src": "/assets/code-solid.svg",
+                "title": "Web Developer",
+                "extraData": "2017-Ind"
+            },
+            {
+                "id": "4",
+                "label": "Hubby",
+                "src": "/assets/math.svg",
+                "title": "Maths",
+                "extraData": "2013-Ind"
+            },
+            {
+                "id": "5",
+                "label": "Language",
+                "src": "/assets/language.svg",
+                "title": "Spanish",
+                "extraData": "Native"
+            },
+            {
+                "id": "6",
+                "label": "Language",
+                "src": "/assets/language.svg",
+                "title": "English",
+                "extraData": "Intermediate"
+            },
+            {
+                "id": "8",
+                "label": "Hobbies",
+                "src": "/assets/headphones.svg",
+                "title": "Listen to Music",
+                "extraData": "Rock = [Alternative, Psicodelic, Indie, Grunge]"
+            },
+            {
+                "id": "9",
+                "label": "Hobbies",
+                "src": "/assets/gamepad.svg",
+                "title": "Play Video Games",
+                "extraData": "Hard Player"
+            },
+            {
+                "id": "10",
+                "label": "Hobbies",
+                "src": "/assets/guitar.svg",
+                "title": "Play The Guitar",
+                "extraData": "Amateur Player"
+            }
+        ]
+    },
+    "technologies": {
+        "titleTechnologies": "Web Development Technologies I use",
+        "titleTools": "Development and Productivity Tools I use"
+    },
+    "proyects": {
+        "title": "<My Recent Works/>",
+        "proyectsArray": [
+            {
+                "id": 1,
+                "title": "Calendar App",
+                "imgBack": "../assets/calendar_back.png",
+                "imgFront": "../assets/calendar_front.png",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "JS",
+                    "Redux",
+                    "Node JS",
+                    "MongoDB"
+                ],
+                "proyectDescription": "Web App to save meetings or daily activities in general by means of a calendar and obtain statistics on their use.",
+                "proyectDate": "December 2023",
+                "webTools": "HTML, CSS, JS, Redux, Node JS, MongoDB",
+                "wasGithubUsed": true,
+                "githubDirection": "https://github.com/E-RI-CK/Calendar-Backend",
+                "demoDirection": "https://calendar-backend-production-713.up.railway.app/"
+            },
+            {
+                "id": 2,
+                "title": "Web Tractopartes",
+                "imgBack": "../assets/tracto_back.png",
+                "imgFront": "../assets/tracto_front.png",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "Wordpress",
+                    "WP Builder",
+                    "Contact Form"
+                ],
+                "proyectDescription": "Web Page about a enterprise that provides different spare parts for heavy machinery.",
+                "proyectDate": "December 2023",
+                "webTools": "HTML, CSS, Wordpress, WP Builder, Contact Form",
+                "wasGithubUsed": false,
+                "demoDirection": "https://carlosa192.sg-host.com/"
+            },
+            {
+                "id": 3,
+                "title": "Journal App",
+                "imgBack": "../assets/journal_back.png",
+                "imgFront": "../assets/journal_front.png",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "Material UI",
+                    "JS",
+                    "React JS",
+                    "Redux",
+                    "Firebase"
+                ],
+                "proyectDescription": "Web App to save daily notes, meets, activities in general and images.",
+                "proyectDate": "August 2023",
+                "webTools": "HTML, CSS, JS, React, Redux, Material UI y Firebase",
+                "wasGithubUsed": true,
+                "githubDirection": "https://github.com/E-RI-CK/Journal-App",
+                "demoDirection": "https://journal-app-system.netlify.app/"
+            },
+            {
+                "id": 4,
+                "title": "Tradición Arequipeña",
+                "imgBack": "../assets/tradi_back.png",
+                "imgFront": "../assets/tradi_front.png",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "JS",
+                    "Github"
+                ],
+                "proyectDescription": "Web Page about a recognized Arequipa Restaurant that provides different typical dishes of the place.",
+                "proyectDate": "March 2023",
+                "webTools": "HTML, CSS, JS, Github",
+                "wasGithubUsed": true,
+                "githubDirection": "https://github.com/E-RI-CK/Tradiciones-Arequipe-as",
+                "demoDirection": "https://e-ri-ck.github.io/Tradiciones-Arequipe-as/"
+            }
+        ]
+    },
+    "contact": {
+        "title": "<Get in Touch/>",
+        "contactDescription": "If you wanna get in touch, talk to me about a project collaboration or just say hi,fill up the awesome form below or send an email to androvalero777@gmail.com and let's talk.",
+        "firstInputName": "Name",
+        "firstInputPlaceholder": "Fill with your name",
+        "secondInputName": "Email",
+        "secondInputPlaceholder": "Now your email address",
+        "thirdInputName": "Message",
+        "thirdInputPlaceholder": "now write your awesome message :)",
+        "btnName": "Submit",
+        "socialMedia": "Let's get social",
+        "socialMediaDescription": "Follow my page on Facebook and profiles on Twitter, GitHub and Linkedin."
+    }
+}

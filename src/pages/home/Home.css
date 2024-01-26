@@ -86,6 +86,9 @@ ul {
     .description {
         padding: 3rem;
     }
+    .photo img{
+        max-width: 400px;
+    }
 }
 /*********Desktop Full Width Media Query********/
 @media screen and (min-width: 1024px) {

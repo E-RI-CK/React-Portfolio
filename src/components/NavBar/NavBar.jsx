@@ -2,10 +2,12 @@ import './NavBar.css';
 import { NavLink } from 'react-router-dom';
 import { Sling as Hamburger } from 'hamburger-react';
 import { useState } from 'react';
+import { useTranslation } from '../../hooks';
 
 
 export const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const { translation, key } = useTranslation();
 
     const onBurgerToggle = () => {
         setIsOpen(false);
@@ -13,7 +15,7 @@ export const NavBar = () => {
 
     return (
         <>
-            <header>
+            <header key={key}>
                 <div className='navbar-container' style={{
                     transform: `${isOpen ? 'translate3d(0,0%,0)' : 'translate3d(0,-100%,0)'}`
                 }}>
@@ -25,21 +27,21 @@ export const NavBar = () => {
                         </div>
                         <div className='navlink-container'>
                             <NavLink to={'/about'} onClick={onBurgerToggle}>
-                                <span className='li-word'>About Me</span>
+                                <span className='li-word'>{translation?.navbar?.aboutMe}</span>
                                 <div className='green-lines-container'>
                                     <span className='li-footer-left'></span>
                                     <span className='li-footer-right'></span>
                                 </div>
                             </NavLink>
                             <NavLink to={'/technologies'} className="a-link" onClick={onBurgerToggle}>
-                                <span className='li-word'>Technologies</span>
+                                <span className='li-word'>{translation?.navbar?.technologies}</span>
                                 <div className='green-lines-container'>
                                     <span className='li-footer-left'></span>
                                     <span className='li-footer-right'></span>
                                 </div>
                             </NavLink>
                             <NavLink to={'/proyects'} onClick={onBurgerToggle}>
-                                <span className='li-word'>Proyects</span>
+                                <span className='li-word'>{translation?.navbar?.proyects}</span>
                                 <div className='green-lines-container'>
                                     <span className='li-footer-left'></span>
                                     <span className='li-footer-right'></span>
@@ -53,7 +55,7 @@ export const NavBar = () => {
                                 </div>
                             </NavLink> */}
                             <NavLink to={'/contact'} onClick={onBurgerToggle}>
-                                <span className='li-word'>Contact me</span>
+                                <span className='li-word'>{translation?.navbar?.contactMe}</span>
                                 <div className='green-lines-container'>
                                     <span className='li-footer-left'></span>
                                     <span className='li-footer-right'></span>

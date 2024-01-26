@@ -1,10 +1,14 @@
+import { useTranslation } from '../../hooks/useTranslation';
 import './Technologies.css';
 
 
 export const Technologies = () => {
+
+  const { translation, key } = useTranslation();
+
   return (
     <>
-      <main className="technologies-main">
+      <main className="technologies-main" key={key}>
         <section className="technologies-img">
           <article>
             <figure>
@@ -14,7 +18,7 @@ export const Technologies = () => {
         </section>
         <section className="technologies-icons-container">
           <article className="technologies-description">
-            <h3>Skillset I Work With</h3>
+            <h3>{translation?.technologies?.titleTechnologies}</h3>
           </article>
           <div className='technologies-icons'>
             <article className="i-main-color html-container">
@@ -59,7 +63,7 @@ export const Technologies = () => {
             </article>
           </div>
           <article className="technologies-description">
-            <h3>Tools I use</h3>
+            <h3>{translation?.technologies?.titleTools}</h3>
           </article>
           <div className='technologies-icons'>
             <article className="i-main-color vscode-container">

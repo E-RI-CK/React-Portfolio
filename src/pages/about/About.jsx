@@ -2,22 +2,13 @@ import { useEffect, useState } from 'react';
 import { TypeWritterInf } from '../../components';
 import './About.css';
 import { AboutItem } from './components/AboutItem';
+import { useTranslation } from '../../hooks';
+
 
 export const About = () => {
 
-  const [aboutData, setAboutData] = useState(undefined);
   const [displayPage, setDisplayPage] = useState(false);
-
-  const getData = async () => {
-    try {
-      const response = await fetch('/json/aboutData.json');
-      const data = await response.json();
-      setAboutData(data);
-    } catch (error) {
-      console.log(error);
-    }
-
-  }
+  const { translation, key } = useTranslation();
 
   useEffect(() => {
     const displayAboutPage = setTimeout(() => {
@@ -27,22 +18,16 @@ export const About = () => {
     return () => {
       clearTimeout(displayAboutPage);
     }
-  }, []);
-
-  useEffect(() => {
-    getData();
-  }, []);
-
-
+  }, [translation]);
 
   return (
     <>
-      <main className="about-main">
+      <main className="about-main" key={key}>
         {(displayPage)
           ? (<>
             <div>
               <h1 className="about-h1">
-                <TypeWritterInf text={"<About Me/>"} delay={100} color={"#fff"} />
+                <TypeWritterInf text={translation?.about?.title} delay={100} color={"#fff"} />
               </h1>
             </div>
             <div className="about-items-list">
@@ -52,7 +37,7 @@ export const About = () => {
               </div>
               <div className="about-content">
                 {
-                  aboutData.map((el) => {
+                  translation?.about?.content.map((el) => {
                     return (
                       <AboutItem key={el.id} {...el} />
                     )

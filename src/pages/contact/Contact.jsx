@@ -1,12 +1,13 @@
 import { TypeWritterInf } from '../../components/TypeWritterInf/TypeWritterInf';
 import './Contact.css';
-import { useForm } from '../../hooks';
+import { useForm, useTranslation } from '../../hooks';
 import emailjs from '@emailjs/browser';
-import { useState } from 'react';
 import Swal from 'sweetalert2';
 
 
 export const Contact = () => {
+
+    const { translation, key } = useTranslation();
 
     const { formState, formReset, onInputChange, name, email, message } = useForm({
         name: "",
@@ -40,14 +41,14 @@ export const Contact = () => {
 
     return (
         <>
-            <main className="contact-main">
+            <main className="contact-main" key={key}>
                 <section className='contact-container'>
                     <article className='contact-description'>
                         <article className='contact-title'>
-                            <h4><TypeWritterInf text={"<Get in Touch/>"} color={"#fff"} delay={50}></TypeWritterInf></h4>
+                            <h4><TypeWritterInf text={translation?.contact?.title || ''} color={"#fff"} delay={50}></TypeWritterInf></h4>
                         </article>
                         <article className='contact-description'>
-                            <p>If you wanna get in touch, talk to me about a project collaboration or just say hi,fill up the awesome form below or send an email to <b>androvalero777@gmail.com</b> and let's talk.</p>
+                            <p>{translation?.contact?.contactDescription}</p>
                         </article>
                     </article>
                     <article className='form-container'>
@@ -55,30 +56,28 @@ export const Contact = () => {
                             <div className="mb-2">
                                 <label htmlFor="exampleInputPassword1" className="form-label" style={{
                                     color: "#eee"
-                                }}>Nombres</label>
-                                <input type="text" name="name" value={name} onChange={onInputChange} placeholder="Fill with your name" className="form-control" id="exampleInputPassword1" />
+                                }}>{translation?.contact?.firstInputName}</label>
+                                <input type="text" name="name" value={name} onChange={onInputChange} placeholder={translation?.contact?.firstInputPlaceholder} className="form-control" id="exampleInputPassword1" />
                             </div>
                             <div className="mb-2">
                                 <label htmlFor="exampleInputEmail1" className="form-label" style={{
                                     color: "#eee"
-                                }}>Email</label>
-                                < input type="email" name="email" value={email} onChange={onInputChange} placeholder='now your email address
-' className="form-control" id="exampleInputEmail1" />
+                                }}>{translation?.contact?.secondInputName}</label>
+                                < input type="email" name="email" value={email} onChange={onInputChange} placeholder={translation?.contact?.secondInputPlaceholder} className="form-control" id="exampleInputEmail1" />
                             </div>
                             <div className="mb-2">
                                 <label htmlFor="exampleInputEmail1" className="form-label" style={{
                                     color: "#eee"
-                                }}>Mensaje</label>
-                                < input type="text" name="message" value={message} onChange={onInputChange} placeholder='now write your awesome message :)
-' className="form-control" id="exampleInputEmail1" />
+                                }}>{translation?.contact?.thirdInputName}</label>
+                                < input type="text" name="message" value={message} onChange={onInputChange} placeholder={translation?.contact?.thirdInputPlaceholder} className="form-control" id="exampleInputEmail1" />
                             </div>
-                            <button type="submit" className="btn btn-primary">Enviar</button>
+                            <button type="submit" className="btn btn-primary">{translation?.contact?.btnName}</button>
                         </form>
                     </article>
                     <article className='social-media-container'>
                         <div className='social-media-description'>
-                            <h3 className='social-media-title'>Let's get social</h3>
-                            <p className='social-media-text'>Follow my online fan page on Facebook and profiles on Twitter, GitHub and Linkedin.</p>
+                            <h3 className='social-media-title'>{translation?.contact?.socialMedia}</h3>
+                            <p className='social-media-text'>{translation?.contact?.socialMediaDescription}</p>
                         </div>
                         <div className='social-media-btn-container'>
                             <a href="https://www.facebook.com/androerick.valeromedina" target='_blank' className='facebook-btn'><span className='contact-icon'><iconify-icon icon="basil:facebook-solid"></iconify-icon></span><span className='icon-text'>FACEBOOK</span></a>
