@@ -10,7 +10,7 @@
     justify-content: center; */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem; 
+    margin-top: 2rem;
     width: 90%;
     /* border: 5px solid green; */
 }
@@ -41,12 +41,13 @@
 }
 
 .about-h1 {
-    font-family: var(--monospace-font-family);
+    font-family: var(--kdam-font-family);
     color: #fff;
     text-align: center;
     font-weight: 700;
     box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
     background-color: #4e9f3d;
+    padding: 0.5rem
 }
 
 .about-ul {
@@ -57,13 +58,6 @@
     position: relative; */
     padding-left: 0;
     /* width: 100%;  */
-}
-
-.about-ul li {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 
 .timeline {

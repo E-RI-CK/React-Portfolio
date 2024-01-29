@@ -21,12 +21,12 @@ export const NavBar = () => {
                 }}>
                     < nav className='navbar' >
                         <div className='my-name' style={{ fontSize: '2rem' }}>
-                            <NavLink to={'/'} onClick={onBurgerToggle}>
+                            <NavLink to={'/'} onClick={onBurgerToggle} >
                                 <img src={'../assets/av_f.svg'} alt='logo' />
                             </NavLink >
                         </div>
                         <div className='navlink-container'>
-                            <NavLink to={'/about'} onClick={onBurgerToggle}>
+                            <NavLink to={'/about'} onClick={onBurgerToggle} >
                                 <span className='li-word'>{translation?.navbar?.aboutMe}</span>
                                 <div className='green-lines-container'>
                                     <span className='li-footer-left'></span>

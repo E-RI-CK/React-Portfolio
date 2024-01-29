@@ -41,7 +41,7 @@
 }
 
 .form-container input:-webkit-autofill,
-.form-container input:-webkit-autofill:focus{
+.form-container input:-webkit-autofill:focus {
     background: #706e6e !important;
     color: #eee !important;
 }
@@ -116,6 +116,7 @@
     border-bottom: solid 5px rgb(47, 67, 112);
     border-radius: 5px;
     transition: all 0.22s ease-in-out;
+    padding: 0.2rem;
 }
 
 .facebook-btn::after {
@@ -159,6 +160,7 @@
     border-bottom: solid 4px rgb(8, 72, 137);
     border-radius: 5px;
     transition: all 0.22s ease-in-out;
+    padding: 0.2rem;
 }
 
 .linkedin-btn::after {
@@ -202,6 +204,7 @@
     border-bottom: solid 4px rgb(50, 50, 50);
     border-radius: 5px;
     transition: all 0.22s ease-in-out;
+    padding: 0.1rem;
 }
 
 .github-btn::after {
@@ -242,9 +245,9 @@
     .social-media-btn-container a {
         height: 3rem;
     }
-
     .icon-text {
         font-size: 0.9rem;
+        font-weight: 700;
     }
 
     .form-container input {

@@ -7,11 +7,11 @@
     "navbar": {
         "aboutMe": "About Me",
         "technologies": "Technologies",
-        "proyects": "Proyects",
+        "proyects": "Projects",
         "contactMe": "Contact Me"
     },
     "about": {
-        "title": "<About Me/>",
+        "title": "<About_Me/>",
         "content": [
             {
                 "id": "1",
@@ -83,7 +83,7 @@
         "titleTools": "Development and Productivity Tools I use"
     },
     "proyects": {
-        "title": "<My Recent Works/>",
+        "title": "<My_Recent_Works/>",
         "proyectsArray": [
             {
                 "id": 1,
@@ -165,7 +165,7 @@
         ]
     },
     "contact": {
-        "title": "<Get in Touch/>",
+        "title": "<Get_in_Touch/>",
         "contactDescription": "If you wanna get in touch, talk to me about a project collaboration or just say hi,fill up the awesome form below or send an email to androvalero777@gmail.com and let's talk.",
         "firstInputName": "Name",
         "firstInputPlaceholder": "Fill with your name",

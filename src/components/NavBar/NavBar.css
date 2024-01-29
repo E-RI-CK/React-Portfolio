@@ -4,6 +4,12 @@ header {
     display: block;
     z-index: 999;
 }
+
+.active {
+    /* Agrega aquí los estilos específicos para el botón cuando el enlace esté activo */
+    font-weight: bold; /* Ejemplo de estilo: negrita */
+}
+
 li {
     display: inline-block;
     font-weight: 700;
@@ -31,7 +37,7 @@ li {
 
 .navbar-container {
     position: fixed;
-    background-color: #191A19;
+    background-color: #191a19;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +61,7 @@ li {
     border-radius: 50% 50%;
 }
 
-a {
+.navlink-container a {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -67,6 +73,10 @@ a {
     color: #888;
     font-size: 2rem;
     font-weight: 700;
+}
+
+.navlink-container a.active {
+    color: var(--third-color);
 }
 
 .navlink-container a:hover {
@@ -156,6 +166,15 @@ span {
 .active {
     color: #44d62c;
 }
+
+/*********Tablet Media Query********/
+@media (min-width: 768px) {
+    .navlink-container a {
+        width: 57%;
+        height: 10%;
+    }
+}
+
 /*********Desktop Media Query********/
 
 @media screen and (min-width: 1024px) {
@@ -202,7 +221,7 @@ span {
         width: auto;
     }
 
-    a {
+    .navlink-container a {
         display: inline-block;
         border-radius: 4px;
         height: 70%;
@@ -229,7 +248,7 @@ span {
         width: 55%;
     }
 
-    a {
+    .navlink-container a {
         font-size: 1.1rem;
     }
 }

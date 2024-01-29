@@ -12,7 +12,7 @@ export const Proyects = () => {
     <>
       <main className='proyects-main' key={key}>
         <section className='proyects-title'>
-          <h2>
+          <h2 className={"animate__animated animate__zoomIn"}>
             <TypeWritterInf text={translation?.proyects?.title || ''} delay={100} color={"#fff"} />
           </h2>
         </section>

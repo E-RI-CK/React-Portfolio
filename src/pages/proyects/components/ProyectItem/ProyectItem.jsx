@@ -1,9 +1,9 @@
 import { TechnologyItem } from "../TechnologyItem/TechnologyItem"
 import './ProyectItem.css';
 
-export const ProyectItem = ({ title, imgBack, imgFront, technologies, proyectDescription, proyectDate, webTools, wasGithubUsed, githubDirection, demoDirection }) => {
+export const ProyectItem = ({ title, imgBack, imgFront, technologies, proyectDescription, proyectDate, webTools, wasGithubUsed, githubDirection, demoDirection, id }) => {
     return (
-        <li className="item">
+        <li className={`item animate__animated ${(id % 2 == 0) ? "animate__slideInLeft" : "animate__zoomIn"}`}>
             <a className="screen">
                 <div className="bar">
                     <h4>{title}</h4>

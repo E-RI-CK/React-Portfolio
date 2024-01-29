@@ -11,7 +11,7 @@
         "contactMe": "Contacto"
     },
     "about": {
-        "title": "<Sobre Mi/>",
+        "title": "<Sobre_Mi/>",
         "content": [
             {
                 "id": "1",
@@ -83,7 +83,7 @@
         "titleTools": "Herramientas de Desarrollo y Productividad que utilizo"
     },
     "proyects": {
-        "title": "<Mis Trabajos Recientes/>",
+        "title": "<Mis_Trabajos_Recientes/>",
         "proyectsArray": [
             {
                 "id": 1,
@@ -165,7 +165,7 @@
         ]
     },
     "contact": {
-        "title": "<Ponerse en Contacto/>",
+        "title": "<Ponerse_en_Contacto/>",
         "contactDescription": "Si quieres ponerte en contacto, háblame sobre un proyecto de colaboración o simplemente saluda, completa el increíble formulario a continuación o envía un correo electrónico a androvalero777@gmail.com y hablemos.",
         "firstInputName": "Nombre",
         "firstInputPlaceholder": "Llénalo con tu nombre",

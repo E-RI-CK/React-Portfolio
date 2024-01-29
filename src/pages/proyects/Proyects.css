@@ -1,6 +1,6 @@
 .proyects-main {
     display: block;
-    background-color: #2a2a2a;
+    background-color: #74ab90;
     padding: 2rem;
     min-height: 100vh;
     width: 100%;
@@ -12,7 +12,7 @@
     color: rgba(255, 255, 250, 1);
     font-family: var(--kdam-font-family);
     /* box-shadow: 4px 4px 8px rgba(132, 132, 132, 0.8); */
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8); */
     border-radius: 1px;
     width: 80%;
     text-align: center;
@@ -106,7 +106,7 @@
     content: "";
     position: absolute;
     z-index: 20;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.75) inset;
+    box-shadow: 0 0 50px #2b4035 inset;
     top: 0;
     left: 0;
     width: 100%;
@@ -157,11 +157,13 @@
     .proyects-title {
         width: 50%;
     }
-
+    .proyects-title h2{
+        font-size: 4rem;
+        font-weight: 700;
+    }
     .proyects-main {
         position: static;
         display: block;
-        background-color: #2a2a2a;
         padding: 2rem;
         margin-top: calc(var(--header-height));
         width: 100%;

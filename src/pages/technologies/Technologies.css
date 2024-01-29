@@ -1,6 +1,7 @@
 .technologies-main {
     background-color: #2a2a2a;
     padding: 2rem;
+    overflow: hidden;
 }
 
 .technologies-img {
