@@ -2,7 +2,8 @@
     "home": {
         "descriptionTitle": "Hello, My name is Andro Valero!",
         "descriptionBody": "I'm a passionate Full Stack Web Developer 💻, adept at turning conceptual designs into responsive web applications 🦾.",
-        "descriptionBody2": "I consider myself a lover of music 🎼🎸 and video games 🎮🎲."
+        "descriptionBody2": "I consider myself a lover of music 🎼🎸 and video games 🎮🎲.",
+        "btnText": "Download My CV"
     },
     "navbar": {
         "aboutMe": "About Me",
@@ -161,6 +162,24 @@
                 "wasGithubUsed": true,
                 "githubDirection": "https://github.com/E-RI-CK/Tradiciones-Arequipe-as",
                 "demoDirection": "https://e-ri-ck.github.io/Tradiciones-Arequipe-as/"
+            },
+            {
+                "id": 5,
+                "title": "Portafolio Web 2022",
+                "imgBack": "../assets/porfolio_antiguo_back.png",
+                "imgFront": "../assets/porfolio_antiguo_front.png",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "JS",
+                    "Github"
+                ],
+                "proyectDescription": "Portafolio Web usando herramientas de programación nativas.",
+                "proyectDate": "Diciembre 2022",
+                "webTools": "HTML, CSS, JS, Github",
+                "wasGithubUsed": true,
+                "githubDirection": "https://github.com/E-RI-CK/Native-Web-Page",
+                "demoDirection": "https://e-ri-ck.github.io/Native-Web-Page/"
             }
         ]
     },

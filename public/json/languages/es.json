@@ -2,7 +2,8 @@
     "home": {
         "descriptionTitle": "Hola, Mi nombre es Andro Valero!",
         "descriptionBody": "Soy un apasionado Desarrollador Web Full Stack, experto en convertir diseños conceptuales en aplicaciones web responsivas 🦾.",
-        "descriptionBody2": "Me considero un amante de la música 🎼🎸 y los videojuegos🎮🎲."
+        "descriptionBody2": "Me considero un amante de la música 🎼🎸 y los videojuegos🎮🎲.",
+        "btnText": "Descarga Mi CV"
     },
     "navbar": {
         "aboutMe": "Sobre Mi",
@@ -161,6 +162,24 @@
                 "wasGithubUsed": true,
                 "githubDirection": "https://github.com/E-RI-CK/Tradiciones-Arequipe-as",
                 "demoDirection": "https://e-ri-ck.github.io/Tradiciones-Arequipe-as/"
+            },
+            {
+                "id": 5,
+                "title": "Portafolio Web 2022",
+                "imgBack": "../assets/porfolio_antiguo_back.png",
+                "imgFront": "../assets/porfolio_antiguo_front.png",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "JS",
+                    "Github"
+                ],
+                "proyectDescription": "Portafolio Web usando herramientas de programación nativas.",
+                "proyectDate": "Diciembre 2022",
+                "webTools": "HTML, CSS, JS, Github",
+                "wasGithubUsed": true,
+                "githubDirection": "https://github.com/E-RI-CK/Native-Web-Page",
+                "demoDirection": "https://e-ri-ck.github.io/Native-Web-Page/"
             }
         ]
     },
@@ -175,7 +194,7 @@
         "thirdInputPlaceholder": "ahora escribe tu increíble mensaje :)",
         "btnName": "Enviar",
         "socialMedia": "Vamos a Socializar",
-        "socialMediaDescription": "Sigue mi página de Facebook y mis perfiles en Twitter, GitHub y Linkedin.",
+        "socialMediaDescription": "Sigue mi página de Facebook y mis perfiles en GitHub y Linkedin.",
         "contactAlert": {
             "title": "Gracias por el mensaje",
             "text": "El mensaje fue enviado con exito",
