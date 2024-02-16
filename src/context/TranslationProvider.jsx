@@ -3,7 +3,7 @@ import { TranslationContext } from './TranslationContext';
 
 export const TranslationProvider = ({ children }) => {
 
-    const [language, setLanguage] = useState('en');
+    const [language, setLanguage] = useState('es');
     const [translation, setTranslation] = useState({});
 
     const changeLanguage = (event) => {
