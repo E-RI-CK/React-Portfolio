@@ -46,6 +46,10 @@ export const Technologies = () => {
                     <iconify-icon icon="mdi:material-ui"></iconify-icon>
                     <h4>Material UI</h4>
                   </article>
+                  <article className="i-main-color tailwind-container animate__animated animate__bounceInRight">
+                    <iconify-icon icon="flowbite:tailwind-solid"></iconify-icon>
+                    <h4>Tailwind</h4>
+                  </article>
                   <article className="i-main-color js-container animate__animated animate__bounceInDown">
                     <i className="fa-brands fa-js"></i>
                     <h4>Javascript</h4>
@@ -53,6 +57,10 @@ export const Technologies = () => {
                   <article className="i-main-color react-container animate__animated animate__bounceInUp">
                     <i className="fa-brands fa-react"></i>
                     <h4>React</h4>
+                  </article>
+                  <article className="i-main-color next-js-container animate__animated animate__bounceInUp">
+                  <iconify-icon icon="teenyicons:nextjs-outline"></iconify-icon>
+                    <h4>Next JS</h4>
                   </article>
                   <article className="i-main-color redux-container animate__animated animate__bounceInLeft">
                     <iconify-icon icon="bxl:redux"></iconify-icon>
@@ -73,6 +81,10 @@ export const Technologies = () => {
                   <article className="i-main-color git-container animate__animated animate__bounceInLeft">
                     <i className="fa-brands fa-git-alt"></i>
                     <h4>Git</h4>
+                  </article>
+                  <article className="i-main-color graphql-container animate__animated animate__bounceInLeft">
+                    <iconify-icon icon="simple-icons:graphql"></iconify-icon>
+                    <h4>GraphQL</h4>
                   </article>
                 </div>
                 <article className="technologies-description">

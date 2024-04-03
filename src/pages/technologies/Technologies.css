@@ -149,6 +149,24 @@ iconify-icon {
     box-shadow: 4px 4px 16px rgba(241, 80, 47, 0.85);
 }
 
+.i-main-color [icon="simple-icons:graphql"] {
+    color: rgba(229, 53, 171, 0.85);
+    font-size: 5rem;
+}
+
+.graphql-container {
+    box-shadow: 4px 4px 16px rgba(229, 53, 171, 0.85);
+}
+
+.i-main-color [icon="flowbite:tailwind-solid"] {
+    color: rgba(68, 168, 179, 0.85);
+    font-size: 5rem;
+}
+
+.tailwind-container {
+    box-shadow: 4px 4px 16px rgba(68, 168, 179, 0.85);
+}
+
 .i-main-color .fa-git-alt {
     color: rgba(241, 80, 47, 1);
     font-size: 5rem;
@@ -313,6 +331,41 @@ iconify-icon {
 
     .firebase-container:hover {
         box-shadow: 4px 4px 16px rgba(255, 166, 17, 0.85);
+    }
+
+    .graphql-container:hover {
+        box-shadow: 4px 4px 16px rgba(229, 53, 171, 0.85);
+    }
+
+    .i-main-color:hover [icon="simple-icons:graphql"] {
+        color: rgba(229, 53, 171, 0.85);
+        font-size: 5rem;
+    }
+
+    .tailwind-container:hover {
+        box-shadow: 4px 4px 16px rgba(68, 168, 179, 0.85);
+    }
+
+    .i-main-color:hover [icon="flowbite:tailwind-solid"] {
+        color: rgba(68, 168, 179, 0.85);
+        font-size: 5rem;
+    }
+
+    .next-js-container:hover {
+        box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.85);
+    }
+
+    .i-main-color [icon="teenyicons:nextjs-outline"] {
+        background: #1c1c01;
+        outline: 3px solid transparent;
+    }
+    
+    .i-main-color:hover [icon="teenyicons:nextjs-outline"] {
+        color: #1c1c01;
+        font-size: 5rem;
+        background: #fff;
+        border-radius: 60%;
+        outline: 3px solid #1c1c01; 
     }
 
     .i-main-color:hover [icon="simple-icons:firebase"] {

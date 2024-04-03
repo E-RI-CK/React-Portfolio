@@ -88,6 +88,27 @@
         "proyectsArray": [
             {
                 "id": 1,
+                "title": "Teslo Shop",
+                "imgBack": "../assets/teslo_back.png",
+                "imgFront": "../assets/teslo_front.png",
+                "technologies": [
+                    "HTML",
+                    "Tailwind",
+                    "TS",
+                    "Zustand",
+                    "Prisma",
+                    "Next",
+                    "NextAuth"
+                ],
+                "proyectDescription": "Ecommerce App para venta de ropa sobre la marca Teslo.",
+                "proyectDate": "Marzo 2024",
+                "webTools": "Tailwind, React, TypeScript, NextJS, Zustand, Prisma, PostgreSQL",
+                "wasGithubUsed": true,
+                "githubDirection": "https://github.com/E-RI-CK/TESLO-Ecommerce",
+                "demoDirection": "https://teslo-ecommerce-jea17c0up-e-ri-cks-projects.vercel.app"
+            },
+            {
+                "id": 2,
                 "title": "Calendar App",
                 "imgBack": "../assets/calendar_back.png",
                 "imgFront": "../assets/calendar_front.png",
@@ -107,7 +128,7 @@
                 "demoDirection": "https://calendar-backend-production-713.up.railway.app/"
             },
             {
-                "id": 2,
+                "id": 3,
                 "title": "Web Tractopartes",
                 "imgBack": "../assets/tracto_back.png",
                 "imgFront": "../assets/tracto_front.png",
@@ -125,7 +146,7 @@
                 "demoDirection": "https://carlosa192.sg-host.com/"
             },
             {
-                "id": 3,
+                "id": 4,
                 "title": "Journal App",
                 "imgBack": "../assets/journal_back.png",
                 "imgFront": "../assets/journal_front.png",
@@ -146,7 +167,7 @@
                 "demoDirection": "https://journal-app-system.netlify.app/"
             },
             {
-                "id": 4,
+                "id": 5,
                 "title": "Tradición Arequipeña",
                 "imgBack": "../assets/tradi_back.png",
                 "imgFront": "../assets/tradi_front.png",
@@ -164,7 +185,7 @@
                 "demoDirection": "https://e-ri-ck.github.io/Tradiciones-Arequipe-as/"
             },
             {
-                "id": 5,
+                "id": 6,
                 "title": "Portafolio Web 2022",
                 "imgBack": "../assets/porfolio_antiguo_back.png",
                 "imgFront": "../assets/porfolio_antiguo_front.png",
