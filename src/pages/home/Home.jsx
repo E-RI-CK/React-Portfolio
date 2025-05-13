@@ -17,8 +17,8 @@ export const Home = () => {
 
   const handleButtonClick = () => {
     const link = document.createElement('a');
-    link.href = '../cv/Andro_Valero_CV.pdf';
-    link.download = 'Andro_Valero_CV.pdf';
+    link.href = '../cv/Andro_Valero_CV__es_.pdf';
+    link.download = 'Andro_Valero_CV__es_.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
