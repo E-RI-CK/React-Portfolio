@@ -13,12 +13,13 @@ export const Home = () => {
   const [continueWord2, setContinueWord2] = useState(false);
   const { translation, key } = useTranslation();
   const { loading } = useLoader();
-  const { changeLanguage } = useContext(TranslationContext);
+  const { changeLanguage, language } = useContext(TranslationContext);
+
 
   const handleButtonClick = () => {
     const link = document.createElement('a');
-    link.href = '../cv/Andro_Valero_CV.pdf';
-    link.download = 'Andro_Valero_CV__es_.pdf';
+    link.href = (language === 'es') ? '../cv/CV_Andro_Valero_es.pdf' : './cv/CV_Andro_Valero_en.pdf';
+    link.download = 'CV_Andro_Valero.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
